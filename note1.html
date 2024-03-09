@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notiz 1</title>
+    <link rel="stylesheet" href="notizen.css">
+    <script src="note1.js"></script>
+</head>
+<body>
+    
+    <div class="time"></div>
+
+    <div class="fontList">
+    <label class="fColor" for="colors">Font-Farbe :</label>
+    <select name="Colors" id="color">
+        <option for="white" value="rgb(255, 255, 255)">weiß</option>
+        <option for="red" value="rgb(255, 105, 105)" id="red">rot</option>
+        <option for="blue" value="rgb(140, 205, 255)" id="blue">blau</option>
+        <option for="yellow" value="rgb(230, 226, 119)" id="yellow">gelb</option>
+    </select>
+    </div>
+
+    <div class="page"> <p contenteditable="true" id="text">deine Notiz</p>
+        <div id="noteArea" contenteditable="true" data-text="deine Eingabe hier..."></div>
+    </div>
+</body>
+</html>
